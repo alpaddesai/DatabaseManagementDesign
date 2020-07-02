@@ -10,7 +10,7 @@ Confidential information is not displayed.
 Please download the executable in https://github.com/alpaddesai/DatabaseManagementDesign/releases for details.
 
 ## Database Management System
-![image](MainWindow.png)
+![image](DatabaseSystemDesign.png)
 
 ## Data Modeling
 ![image](DataModeling.png)
