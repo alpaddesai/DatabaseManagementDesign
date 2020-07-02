@@ -1,0 +1,17 @@
+﻿<Window x:Class="DatabaseManagementSystems.StructuralQueryLanguage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatabaseManagementSystems"
+        mc:Ignorable="d"
+        Title="Structural Query Language" Height="529" Width="740" MaxWidth="740" MaxHeight="529">
+    <Grid Margin="0,0,-4,7" MaxWidth="744" MaxHeight="506">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Margin="11,1,3,3" Stretch="Fill" Source="/Chapter4.jpg" MaxWidth="730" MaxHeight="416" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>

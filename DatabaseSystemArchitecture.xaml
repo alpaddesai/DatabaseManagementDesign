@@ -1,0 +1,13 @@
+﻿<Window x:Class="DatabaseManagementSystems.DatabaseSystemArchitecture"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatabaseManagementSystems"
+        mc:Ignorable="d"
+        Title="Database System Architecture" Height="801" Width="1197" MaxWidth="1197" MaxHeight="801">
+    <Grid MaxWidth="1197" MaxHeight="785" Margin="0,0,30,31">
+        <Image Margin="25,27,33,41" Stretch="Fill" Source="/Chapter14.jpg"/>
+
+    </Grid>
+</Window>

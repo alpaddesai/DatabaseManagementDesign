@@ -6,4 +6,32 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Chapter10.jpg" />
+    <None Remove="Chapter13.jpg" />
+    <None Remove="Chapter14.jpg" />
+    <None Remove="Chapter16.jpg" />
+    <None Remove="Chapter3.jpg" />
+    <None Remove="Chapter4.jpg" />
+    <None Remove="Chapter6.jpg" />
+    <None Remove="Chapter7.jpg" />
+    <None Remove="Chapter8.jpg" />
+    <None Remove="Chapter9.jpg" />
+    <None Remove="image10.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Chapter10.jpg" />
+    <Resource Include="Chapter13.jpg" />
+    <Resource Include="Chapter14.jpg" />
+    <Resource Include="Chapter16.jpg" />
+    <Resource Include="Chapter3.jpg" />
+    <Resource Include="Chapter4.jpg" />
+    <Resource Include="Chapter6.jpg" />
+    <Resource Include="Chapter7.jpg" />
+    <Resource Include="Chapter8.jpg" />
+    <Resource Include="Chapter9.jpg" />
+    <Resource Include="image10.jpg" />
+  </ItemGroup>
+
 </Project>

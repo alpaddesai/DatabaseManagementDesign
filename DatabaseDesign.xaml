@@ -1,0 +1,17 @@
+﻿<Window x:Class="DatabaseManagementSystems.DatabaseDesign"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatabaseManagementSystems"
+        mc:Ignorable="d"
+        Title="DatabaseDesign" Height="733" Width="1075" MaxWidth="1075" MaxHeight="733">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="138*"/>
+            <RowDefinition Height="101*"/>
+        </Grid.RowDefinitions>
+        <Image Margin="22,27,34,35" Stretch="Fill" Source="Chapter6.jpg" Grid.RowSpan="2"/>
+
+    </Grid>
+</Window>

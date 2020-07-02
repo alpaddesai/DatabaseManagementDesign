@@ -1,0 +1,13 @@
+﻿<Window x:Class="DatabaseManagementSystems.DataModeling"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatabaseManagementSystems"
+        mc:Ignorable="d"
+        Title="Data Modeling" Height="450" Width="800">
+    <Grid MaxWidth="800" MaxHeight="434">
+        <Image Margin="11,2,19,15" Stretch="Fill" Source="image10.jpg" MaxWidth="770" MaxHeight="417"/>
+
+    </Grid>
+</Window>

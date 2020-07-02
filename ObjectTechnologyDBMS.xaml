@@ -1,0 +1,16 @@
+﻿<Window x:Class="DatabaseManagementSystems.ObjectTechnologyDBMS"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatabaseManagementSystems"
+        mc:Ignorable="d"
+        Title="Object Technology DBMS" Height="764" Width="1088" MaxHeight="764" MaxWidth="1088">
+    <Grid Margin="0,0,12,55">
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Image Margin="22,24,0,-28" Stretch="Fill" Source="Chapter13.jpg" HorizontalAlignment="Left" Width="1013" MaxHeight="691" MaxWidth="1013"/>
+
+    </Grid>
+</Window>

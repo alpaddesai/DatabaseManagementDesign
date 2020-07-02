@@ -1,0 +1,10 @@
+﻿<Window x:Class="DatabaseManagementSystems.InformationRetrieval"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatabaseManagementSystems"
+        mc:Ignorable="d"
+        Title="Physical_Database_Design" Height="570" Width="1009" MaxHeight="570" MaxWidth="1009">
+    <Image Margin="19,33,28,21" Stretch="Fill" Source="/Chapter9.jpg"/>
+</Window>

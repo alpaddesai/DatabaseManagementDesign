@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\alpag\source\repos\DatabaseManagementSystems\DatabaseManagementSystems\App.xaml
-11151548125
+1351432899
 
-4-1645630608
+16-2063692449
 1921654412462
-MainWindow.xaml;
+ConceptualModeling.xaml;DatabaseDesign.xaml;DatabaseSecurity.xaml;DatabasesInternet.xaml;DatabaseSystemArchitecture.xaml;DataModeling.xaml;DataWarehousingOLAPDataMining.xaml;InformationRetrieval.xaml;MainWindow.xaml;ObjectTechnologyDBMS.xaml;RelationalDatabaseDesign.xaml;StructuralQueryLanguage.xaml;TransactionQueryProcessing.xaml;
 
-False
+True
 

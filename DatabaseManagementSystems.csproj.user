@@ -7,7 +7,81 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ConceptualModeling.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DatabaseDesign.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DatabaseSecurity.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DatabasesInternet.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DatabaseSystemArchitecture.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataModeling.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataWarehousingOLAPDataMining.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InformationRetrieval.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ObjectTechnologyDBMS.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RelationalDatabaseDesign.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StructuralQueryLanguage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TransactionQueryProcessing.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ConceptualModeling.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DatabaseDesign.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DatabaseSecurity.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DatabasesInternet.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DatabaseSystemArchitecture.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataModeling.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataWarehousingOLAPDataMining.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InformationRetrieval.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ObjectTechnologyDBMS.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RelationalDatabaseDesign.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StructuralQueryLanguage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TransactionQueryProcessing.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -1,0 +1,10 @@
+﻿<Window x:Class="DatabaseManagementSystems.ConceptualModeling"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatabaseManagementSystems"
+        mc:Ignorable="d"
+        Title="Conceptual Modeling" Height="452" Width="790" MaxWidth="800" MaxHeight="450">
+    <Image Margin="19,-5,13,8" Stretch="Fill" Source="/Chapter3.jpg" MaxWidth="768" MaxHeight="398"/>
+</Window>

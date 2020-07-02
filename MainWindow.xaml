@@ -5,8 +5,80 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DatabaseManagementSystems"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="MainWindow" Height="520" Width="617" MaxWidth="617" MaxHeight="520">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black"/>
+            <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Margin="0,0,0,17">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="214*"/>
+            <ColumnDefinition Width="87*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ConceptualModeling" Content="Conceptual Modeling and Relational Model" HorizontalAlignment="Left" Margin="30,84,0,0" VerticalAlignment="Top" Height="52" Width="261" FontWeight="Bold" Click="ConceptualModeling_Click">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="SQL" Content="Structural Query Language" HorizontalAlignment="Left" Margin="32,145,0,0" VerticalAlignment="Top" Height="52" Width="261" FontSize="16" FontWeight="Bold" Click="SQL_Click">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="RelationalDatabaseDesign" Content="DataminingDataWarehouse" HorizontalAlignment="Left" Margin="29,211,0,0" VerticalAlignment="Top" Height="52" Width="261" FontSize="16" FontWeight="Bold" Click="RelationalDatabaseDesign_Click">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="DatabaseDesign" Content="Database Design" HorizontalAlignment="Left" Margin="30,275,0,0" VerticalAlignment="Top" Height="52" Width="261" FontSize="16" FontWeight="Bold" Click="DatabaseDesign_Click">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="TransactionandQueryProcessing" Content="Transaction and Query Processing" HorizontalAlignment="Left" Margin="34,338,0,0" VerticalAlignment="Top" Height="52" Width="261" Click="TransactionandQueryProcessing_Click" FontWeight="Bold" FontSize="14">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="DatabaseSecurity" Content="Database Security" HorizontalAlignment="Left" Margin="314,23,0,0" VerticalAlignment="Top" Height="52" Width="261" FontSize="16" FontWeight="Bold" Click="DatabaseSecurity_Click" Grid.ColumnSpan="2">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="DatabaseSystemArchitecture" Content="Database System Architecture" HorizontalAlignment="Left" Margin="314,83,0,0" VerticalAlignment="Top" Height="52" Width="261" FontSize="16" FontWeight="Bold" Click="DatabaseSystemArchitecture_Click" Grid.ColumnSpan="2">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="DataWarehousingOLAPDataMining" Content="Data Warehousing OLAP DataMining" HorizontalAlignment="Left" Margin="314,144,0,0" VerticalAlignment="Top" Height="52" Width="261" FontSize="14" FontWeight="Bold" Click="DataWarehousingOLAPDataMining_Click" Grid.ColumnSpan="2">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="InformationRetrieval" Content="Information Retrieval" HorizontalAlignment="Left" Margin="313,210,0,0" VerticalAlignment="Top" Height="52" Width="261" FontSize="16" FontWeight="Bold" Click="InformationRetrieval_Click" Grid.ColumnSpan="2">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="DataModeling" Content="Data Modeling" HorizontalAlignment="Left" Margin="27,19,0,0" VerticalAlignment="Top" Height="52" Width="261" FontWeight="Bold" FontSize="16" Click="DataModeling_Click">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ObjectTechnologyDBMS" Content="Object Technology DBMS" HorizontalAlignment="Left" Margin="312,274,0,0" VerticalAlignment="Top" Height="52" Width="261" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Click="ObjectTechnologyDBMS_Click">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="DatabasesInternet" Content="Databases and Internet" HorizontalAlignment="Left" Margin="313,340,0,0" VerticalAlignment="Top" Height="52" Width="261" FontSize="16" FontWeight="Bold" Click="DatabasesInternet_Click" Grid.ColumnSpan="2">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Margin="31,434,0,0" Text="Reference: Fundamentals of Relational Database Management Systems, S.Sumathi S. Esakkirajan" TextWrapping="Wrap" VerticalAlignment="Top" Width="538" Height="19" Grid.ColumnSpan="2" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="32,405,0,0" Text="Reference: Concepts of Database Management System by Shefali Naik " TextWrapping="Wrap" VerticalAlignment="Top" Width="538" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Left" Margin="31,463,0,0" Text="Reference: Introduction to Database Management Systems, Kahate Atul" TextWrapping="Wrap" VerticalAlignment="Top" Width="538" Height="19" Grid.ColumnSpan="2" TextChanged="TextBox_TextChanged"/>
     </Grid>
 </Window>
