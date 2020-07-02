@@ -46,4 +46,4 @@ Please download the executable in https://github.com/alpaddesai/DatabaseManageme
 ![image](ObjectOrientedObjectRelationalDBMS.png)
 
 ## Databases and internet
-![image]()
+![image](DatabaseInternet.png)
