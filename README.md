@@ -10,40 +10,40 @@ Confidential information is not displayed.
 Please download the executable in https://github.com/alpaddesai/DatabaseManagementDesign/releases for details.
 
 ## Database Management System
-![image]()
+![image](MainWindow.png)
 
 ## Data Modeling
-![image]()
+![image](DataModeling.png)
 
 ## Conceptual Modeling and Relational Model
-![image]()
+![image](RelationalModel.png)
 
 ## Structural Query Language
-![image]()
+![image](PL_SQL.png)
 
 ## Data mining and Data warehouse
-![image]()
+![image](DataMiningDataWarehouse.png)
 
 ## Database Design
-![image]()
+![image](DatabaseDesign.png)
 
 ## Transaction and Query Processing
-![image]()
+![image](TransactionQueryProcessing.png)
 
 ## Database Security
-![image]()
+![image](DatabaseSecurity.png)
 
 ## Dabase System Architecture
-![image]()
+![image](DatabaseSystemArchitecture.png)
 
 ## Data Warehousing OLAP Data mining
 ![image]()
 
 ## Information retrieval
-![image]()
+![image](InformationRetrieval.png)
 
 ## Object technology DBMS
-![image]()
+![image](ObjectOrientedObjectRelationalDBMS.png)
 
 ## Databases and internet
 ![image]()
