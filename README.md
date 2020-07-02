@@ -36,9 +36,6 @@ Please download the executable in https://github.com/alpaddesai/DatabaseManageme
 ## Dabase System Architecture
 ![image](DatabaseSystemArchitecture.png)
 
-## Data Warehousing OLAP Data mining
-![image]()
-
 ## Information retrieval
 ![image](InformationRetrieval.png)
 
