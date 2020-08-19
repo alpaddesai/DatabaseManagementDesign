@@ -45,3 +45,5 @@ Please download the executable in https://github.com/alpaddesai/DatabaseManageme
 ## Databases and internet
 ### MS power point presentations
 ![image](DatabaseInternet.png)
+
+Advanced knowledge reference : https://github.com/alpaddesai/ObjectOrientedProgrammingCSharp
