@@ -52,4 +52,6 @@ Please download the executable in https://github.com/alpaddesai/DatabaseManageme
 ## Oracle
 ![image](Oracle.jpg)
 
+![image](USCopyrightCertificate.png)
+
 Advanced knowledge reference : https://github.com/alpaddesai/ObjectOrientedProgrammingCSharp and https://github.com/alpaddesai/EngineeringProjectManagement
