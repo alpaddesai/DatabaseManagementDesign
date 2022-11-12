@@ -54,4 +54,6 @@ Please download the executable in https://github.com/alpaddesai/DatabaseManageme
 
 ![image](USCopyrightCertificate.png)
 
+![image](Ethics.jpg)
+
 Advanced knowledge reference : https://github.com/alpaddesai/ObjectOrientedProgrammingCSharp and https://github.com/alpaddesai/EngineeringProjectManagement
