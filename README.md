@@ -44,9 +44,6 @@ Confidential information is not displayed.
 ### MS power point presentations
 ![image](DatabaseInternet.png)
 
-## Oracle
-![image](Oracle.jpg)
-
 ![image](USCopyrightCertificate.png)
 
 ![image](Ethics.jpg)
