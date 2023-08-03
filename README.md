@@ -44,6 +44,9 @@ Confidential information is not displayed.
 ### MS power point presentations
 ![image](DatabaseInternet.png)
 
+## Introduction to Database Mgmt
+![image](DatabaseMgmtUdemy.jpg)
+
 ![image](USCopyrightCertificate.png)
 
 ![image](Ethics.jpg)
