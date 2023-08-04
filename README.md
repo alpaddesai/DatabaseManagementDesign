@@ -45,7 +45,7 @@ Confidential information is not displayed.
 ![image](DatabaseInternet.png)
 
 ## Introduction to Database Mgmt
-![image](DatabaseMgmtUdemy.jpg)
+![image](DatabaseCertifications.jpg)
 
 ![image](USCopyrightCertificate.png)
 
